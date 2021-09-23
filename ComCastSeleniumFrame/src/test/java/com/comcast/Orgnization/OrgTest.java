@@ -3,13 +3,15 @@ package com.comcast.Orgnization;
 import org.testng.annotations.Test;
 
 public class OrgTest {
-	String BROWSER= System.getProperty("browser");
 
-	String ENV= System.getProperty("url");
 
 
 	@Test(groups="smokeTest")
-	public void createOrganizationTest() {
+	public void createOrganizationTest(){
+		String BROWSER= System.getProperty("browser");
+		String ENV= System.getProperty("url");
+		System.out.println(BROWSER);
+		System.out.println(ENV);
 		System.out.println("execute organization");
 	}
 	@Test(groups="regressionTest")
