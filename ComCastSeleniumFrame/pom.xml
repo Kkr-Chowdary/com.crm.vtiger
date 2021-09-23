@@ -92,7 +92,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>testngreginalregression.xml</suiteXmlFile>
+						<suiteXmlFile>testngfull_regression.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
